@@ -14,12 +14,12 @@ F 0 "X1" H 1500 900 50 0000 L CNN
 F 1 "Seeed XIAO footprint" H 1500 1100 50 0000 L CNN
 $EndComp
 $Comp
-L Device:Power flag PWR
+L Device:Power FFlag
 U 1 1 5E2E8C4B
 P 1200 800
 F 0 "PWR" H 1200 700 50 0000 L CNN
 F 1 "+5V" H 1200 900 50 0000 L CNN
 $EndComp
-$EndSCHEMATC
+$EndSCHEMATIC
 
--- NOTES: Minimal adapter schematic. Break out all XIAO pins to headers; include VCC, GND, Reset, Boot. Add power LED and optional USB-C power part if desired. This is a fast-prototype starting schematic.
+# Notes: Minimal adapter schematic. Break out all XIAO pins to headers; include VCC, GND, Reset, Boot. Add power LED and optional USB-C power part if desired.

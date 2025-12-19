@@ -28,7 +28,7 @@ F 0 "K2" H 3200 1300 50 0000 L CNN
 F 1 "SRD-05VDC-SL-C" H 3200 1700 50 0000 L CNN
 $EndComp
 $Comp
-L Device:Q NPN_Q U2
+L Device:Q NPN_Q Q1
 U 1 1 5E2E8C3E
 P 2300 1500
 F 0 "Q1" H 2300 1300 50 0000 L CNN
@@ -41,6 +41,6 @@ P 2600 1100
 F 0 "D1" H 2600 900 50 0000 L CNN
 F 1 "LED" H 2600 1300 50 0000 L CNN
 $EndComp
-$EndSCHEMATC
+$EndSCHEMATIC
 
--- NOTES: This is a minimal KiCad 9 schematic placeholder. It includes NodeMCU, two relays, two NPN drivers and two LEDs. Connect NodeMCU digital pins to transistor bases via resistors, transistor collectors to relay coils, relay other coil terminal to +5V, and add flyback diodes. Add screw terminals for VIN GND and NO/NC/COM for each relay. Use this as starting point; detailed netlist and footprints provided in PCB file.
+# Notes: Minimal KiCad 9-compatible schematic placeholder. It includes NodeMCU module, two relays, transistor drivers, and LEDs. Connect NodeMCU digital pins to transistor bases via resistors, transistor collectors to relay coils, other coil terminals to +5V, and add flyback diodes. Add screw terminals for VIN/GND and NO/NC/COM for each relay.
