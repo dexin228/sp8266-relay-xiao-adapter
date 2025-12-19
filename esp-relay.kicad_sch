@@ -1,0 +1,46 @@
+EESchema Schematic File Version 2
+LIBS: Device
+LIBS: KiCad
+EELAYER 25 0
+EELAYER END
+$Descr A4 11700 8268
+encoding utf-8
+$EndDescr
+$Comp
+L NodeMCU:NodeMCU U1
+U 1 1 5E2E8C3B
+P 2000 1500
+F 0 "U1" H 2000 1300 50 0000 L CNN
+F 1 "NodeMCU" H 2000 1700 50 0000 L CNN
+$EndComp
+$Comp
+L Device:R Relay1
+U 1 1 5E2E8C3C
+P 2600 1500
+F 0 "K1" H 2600 1300 50 0000 L CNN
+F 1 "SRD-05VDC-SL-C" H 2600 1700 50 0000 L CNN
+$EndComp
+$Comp
+L Device:R Relay2
+U 1 1 5E2E8C3D
+P 3200 1500
+F 0 "K2" H 3200 1300 50 0000 L CNN
+F 1 "SRD-05VDC-SL-C" H 3200 1700 50 0000 L CNN
+$EndComp
+$Comp
+L Device:Q NPN_Q U2
+U 1 1 5E2E8C3E
+P 2300 1500
+F 0 "Q1" H 2300 1300 50 0000 L CNN
+F 1 "2N2222" H 2300 1700 50 0000 L CNN
+$EndComp
+$Comp
+L Device:LED LED1
+U 1 1 5E2E8C3F
+P 2600 1100
+F 0 "D1" H 2600 900 50 0000 L CNN
+F 1 "LED" H 2600 1300 50 0000 L CNN
+$EndComp
+$EndSCHEMATC
+
+-- NOTES: This is a minimal KiCad 9 schematic placeholder. It includes NodeMCU, two relays, two NPN drivers and two LEDs. Connect NodeMCU digital pins to transistor bases via resistors, transistor collectors to relay coils, relay other coil terminal to +5V, and add flyback diodes. Add screw terminals for VIN GND and NO/NC/COM for each relay. Use this as starting point; detailed netlist and footprints provided in PCB file.

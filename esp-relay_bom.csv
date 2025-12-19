@@ -1,0 +1,9 @@
+Ref,Value,Footprint,Quantity,Notes
+U1,NodeMCU,Module:NodeMCU,1,ESP8266 NodeMCU DevKit V1 (ESP-12E)
+K1,SRD-05VDC-SL-C,Relay:Relay_SPDT,1,5V mechanical relay ~10A
+K2,SRD-05VDC-SL-C,Relay:Relay_SPDT,1,5V mechanical relay ~10A
+Q1,2N2222,TO-92,2,NPN transistor for relay driver
+D1,1N4007,DO-41,2,flyback diode across relay coil
+R1,1k,0603,2,base resistor
+LED1,LED,LED_0603,2,status LED
+J1,ScrewTerminal_3.5mm,TerminalBlock:3.5mm,2,Power and relay contacts

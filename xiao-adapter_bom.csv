@@ -1,0 +1,5 @@
+Ref,Value,Footprint,Quantity,Notes
+X1,Seeed XIAO,SMD:Seeed-XIAO-Edge,1,Place Seeed XIAO module on top (SAMD21 variant)
+LED1,LED,0603,1,power indicator
+J1,Header_1x12,Header:1x12,1,Pin header to break out XIAO pins
+C1,1uF,0603,2,decoupling

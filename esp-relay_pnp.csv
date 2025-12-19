@@ -1,0 +1,4 @@
+Ref,Value,Footprint,Mid X mm,Mid Y mm,Layer
+U1,NodeMCU,Module:NodeMCU,30,20,Top
+K1,SRD-05VDC-SL-C,Relay_SPDT,45,20,Top
+K2,SRD-05VDC-SL-C,Relay_SPDT,50,20,Top
